@@ -14,7 +14,7 @@ there's a [`Makefile`](/Makefile) in the main directory, so not much is required
 ```bash
 ~/biginning $ make
 ```
-then you'll have the binary in the [bin](bin) folder. if you have the [`mingw-w64`](https://www.mingw-w64.org) toolchain installed, you could make a build for windows by typing:
+then you'll have the binary in the [`bin`](bin) folder. if you have the [mingw-w64](https://www.mingw-w64.org) toolchain installed, you could make a build for windows by typing:
 ```bash
 ~/biginning $ make windows
 ```
@@ -24,6 +24,7 @@ if you desire to install the program, the binary can be copied to `/usr/local/bi
 ```bash
 ~/biginning $ sudo make install
 ```
+This should add the binary to your `$PATH`, allowing you to run it whenever and wherever.
 
 ## Running
 an example of how to run the program after completing the [Downloading](##Downloading) and [Building](##Building) steps above:
